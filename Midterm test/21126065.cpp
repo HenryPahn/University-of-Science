@@ -64,10 +64,9 @@ int main() {
 
     day++;
     KHTN = new UNI[day];
+
     Input(KHTN[day]);
-
-    Output(KHTN, day);
-
     
+    Output(KHTN, day);
     delete[] KHTN;
 }

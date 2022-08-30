@@ -21,7 +21,7 @@ Node CreateNode (Fraction value) {
     return temp;
 }
 
-bool CheckPrime(int n) {
+bool CheckPrimeN(int n) {
     if(n < 2) return false; 
     else if(n == 2) return true;
     else 
@@ -32,7 +32,7 @@ bool CheckPrime(int n) {
 }
 
 int PrimeN(int &i) {
-    while(!CheckPrime(i))
+    while(!CheckPrimeN(i))
         i++;
     i++;
     return i - 1;
